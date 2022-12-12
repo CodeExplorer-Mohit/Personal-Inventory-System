@@ -1,0 +1,2204 @@
+*{
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#container{
+	background-color: #0f1144;
+	width: 100vw;
+	height: 745px;
+	margin: auto;
+}
+
+.head{
+	width: 100%;
+}
+
+
+.logo{
+	background: linear-gradient(to top, #090909, #484848);
+	width: 40vw;
+	height: 150px;
+	float: left;
+
+}
+
+.logo img{
+	width: 350px;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+.menu{
+	background: linear-gradient(to top, #090909, #484848);
+	width: 60vw;
+	height: 150px;
+	float: left;
+}
+
+.menu-ul{
+	margin-left: 350px;
+	margin-top: 20px;
+}
+
+.menu-ul-li{
+	float: left;
+	padding-left: 16px;
+	padding-right: 16px;
+	list-style: none;
+	font-size: 24px;
+	padding-top: 40px;
+}
+
+.menu-ul-li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.menu-ul-li a:hover{
+	text-decoration: overline;
+	font-weight: bold;
+}
+
+
+/*=======right-img-home=======*/
+.right-img-home{
+	float: right;
+	margin-right: 20vw;
+}
+
+.right-img-home img{
+	width: 550px;
+	margin-left: 12vw;
+}
+
+
+/*================Login Form=================*/
+
+#log-form{
+	background-color: #000244;
+	width: 50vw;
+	height: 300px;
+	float: right;
+	margin-top: 40px;
+	margin-right: 40px;
+	border: 15px solid #1c1e6b;
+}
+
+#log-form p{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+.log-f{
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 40px;
+}
+
+.reg-f label{
+	color: white;
+	font-size: 22px;
+}
+
+.log-f input{
+	width: 300px;
+	height: 25px;
+	margin-top: 5px;
+	font-size: 22px;
+	padding-left: 2px;
+}
+
+.log-form-register-p a{
+	text-decoration: none;
+	color: #2874f0;
+	font-size: 16px;
+	margin-left: 15vw;
+	/*margin-top: 30px;*/
+	font-weight: lighter;
+	text-align: justify;
+}
+
+.log-f label{
+	color: white;
+	font-size: 22px;
+}
+
+.log-f input{
+	width: 300px;
+	height: 25px;
+	margin-top: 5px;
+	font-size: 22px;
+	padding-left: 2px;
+}
+
+.log-userUName{
+	margin-left: 10px;
+	margin-right: 72px;
+	margin-top: 5px;
+}
+
+.log-userPass{
+	margin-left: 10px;
+	margin-right: 77px;
+	margin-top: 2px;
+}
+
+/*===================Register Form===================*/
+
+#reg-form{
+	background-color: #000244;
+	width: 50vw;
+	height: 400px;
+	float: right;
+	margin-top: 40px;
+	margin-right: 40px;
+	border: 15px solid #1c1e6b;
+}
+
+#reg-form p{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+.reg-f{
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 40px;
+}
+
+.reg-f label{
+	color: white;
+	font-size: 22px;
+}
+
+.reg-f input{
+	width: 300px;
+	height: 25px;
+	margin-top: 5px;
+	font-size: 22px;
+	padding-left: 2px;
+}
+
+#uid{
+	display: none;
+}
+
+.userName{
+	margin-left: 10px;
+	margin-right: 115px;
+	margin-top: 5px;
+}
+
+
+.userUName{
+	margin-left: 10px;
+	margin-right: 72px;
+	margin-top: 5px;
+}
+
+.userPass{
+	margin-left: 10px;
+	margin-right: 77px;
+	margin-top: 2px;
+}
+
+.userConPass{
+	margin-left: 10px;
+	margin-top: 2px;
+}
+
+.userPhon{
+	margin-left: 10px;
+	margin-right: 82px;
+	margin-top: 2px;
+}
+
+.userEmail{
+	margin-left: 10px;
+	margin-right: 100px;
+	margin-top: 2px;
+}
+
+.userAdd{
+	margin-left: 10px;
+	margin-right: 93px;
+	margin-top: 2px;
+}
+
+/*Registration Form Button*/
+#inputReg{
+	margin-left: 194px;
+	margin-top: 2px;
+	font-size: 20px;
+	width: 308px;
+	height: 35px;
+	background-color: #484848;
+	color: white;
+}
+
+/*Login Form Button*/
+#inputLog{
+	margin-left: 194px;
+	margin-top: 10px;
+	font-size: 20px;
+	width: 308px;
+	height: 35px;
+	background-color: #484848;
+	color: white;
+}
+
+
+/*=============left-right both container=================*/
+
+.main-container-left-right{
+	width: 100%;
+	height: 10vh;
+	background-color: lightblue;
+}
+
+/*left side menu bar Master*/
+
+.left-menu-bar-Master{
+	width: 30vw;
+	height: 79.7vh;
+	float: left;
+	margin-top: 0px;
+	margin-left: 10px;
+}
+
+.left-menu-heading-master{
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+	margin-left: 20px;
+	margin-top: 3vh;
+}
+
+.left-menu-blackBox{
+	background-color: #272727;
+	border-top: 5px solid grey;
+	width: 350px;
+	height: 430px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.left-menu-ul{
+	margin-top: 20px;
+	margin-left: 15px;
+}
+
+.left-menu-ul-li{
+	list-style: none;
+	padding: 6px;
+	padding-top: 15px;
+
+}
+
+.left-menu-ul-li a{
+	color: #00326f;
+	font-size: 24px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.left-menu-ul-li a:hover{
+	color: white;
+	font-size: 24px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/*==============right profile container============*/
+.perent-right-profile-container{
+	width: 70vw;
+	height: 79.7vh;;
+	float: right;
+}
+
+.perent-right-child{
+	width: 50vw;
+	height: 50vh;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 15vh;
+	background-color: #161852;
+}
+
+.perent-right-child-p{
+	color: white;
+	font-size: 35px;
+	font-weight: bold;
+	padding: 5px;
+}
+
+.perent-right-child-table{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5vh;
+}
+
+table tr td .tbl-tr-td{
+	color: white;
+	font-size: 18px;
+	padding: 5px;
+	font-weight: bold;
+}
+
+table tr .tbl-tr-colon{
+	color: white;
+	font-size: 20px;
+}
+
+table tr td .tbl-tr-td-value{
+	color: white;
+	font-size: 20px;
+	padding: 5px;
+}
+
+
+/*=====================*Update Profile*=====================*/
+
+.right-update-profile-bar{
+	width: 50vw;
+	height: 52vh;
+	float: right;
+	margin-right: 15vw;
+	margin-top: 16vh;
+	background-color: #161852;
+}
+
+.right-update-profile-bar p{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+.right-update-form{
+	margin-left: 10vw;
+	margin-top: 5vh;
+}
+
+.right-update-profile-bar label{
+	color: white;
+	font-size: 22px;
+
+}
+
+.right-update-profile-bar input{
+	width: 300px;
+	height: 25px;
+	margin-top: 5px;
+	font-size: 22px;
+	padding-left: 2px;
+}
+
+/*==all input==*/
+.userName-update{
+	margin-left: 10px;
+	margin-right: 65px;
+	margin-top: 5px;
+}
+
+.userUName-update{
+	margin-left: 10px;
+	margin-right: 22px;
+	margin-top: 5px;
+}
+
+.userPass-update{
+	margin-left: 10px;
+	margin-right: 27px;
+	margin-top: 2px;
+}
+
+.userPhon-update{
+	margin-left: 10px;
+	margin-right: 32px;
+	margin-top: 2px;
+}
+
+.userEmail-update{
+	margin-left: 10px;
+	margin-right: 50px;
+	margin-top: 2px;
+}
+
+.userAdd-update{
+	margin-left: 10px;
+	margin-right: 43px;
+	margin-top: 2px;
+}
+
+/*Update Form Button*/
+#input-Update{
+	margin-left: 155px;
+	margin-top: 10px;
+	font-size: 20px;
+	width: 90px;
+	height: 30px;
+	background-color: #484848;
+	color: white;
+}
+
+/*============*Update Profile End*=============*/
+
+
+.update-span-colon{
+	margin-right: 0;
+	font-size: 20px;
+	font-weight: bold;
+	padding-right: 5px;
+}
+
+/*=================right income category container================*/
+.right-income-category-container{
+	width: 65vw;
+	height: 75vh;
+	float: right;
+}
+
+.right-income-category-child{
+	background-color: #161852;
+	width: 60vw;
+	height: 65vh;
+	margin: auto;
+	margin-top: 4vh;
+}
+
+.right-income-form-container{
+	width: 60vw;
+	height: 30vh;
+	margin: auto;
+	/*margin-top: 5vh;*/
+}
+
+.income-category-head{
+	color: white;
+	font-size: 28px;
+	font-weight: bold;
+	padding-top: 20px;
+	margin-left: 20px;
+}
+
+.right-income-form{
+	margin-left: 10vw;
+	padding-top: 2vh;
+}
+
+.right-income-form label{
+	color: white;
+	font-size: 20px;
+}
+
+.incCatNme{
+	margin-right: 15px;
+}
+
+.incCatDetails{
+	margin-right: 7px;
+}
+
+.right-income-form input{
+	width: 300px;
+	height: 24px;
+	margin-top: 5px;
+	font-size: 22px;
+	padding-left: 2px;
+	background-color: white;
+}
+
+#AddIncome{
+	margin-left: 180px;
+	margin-top: 10px;
+	font-size: 20px;
+	width: 308px;
+	height: 30px;
+	background-color: #484848;
+	color: white;
+}
+
+.right-income-category-infotable{
+	width: 60vw;
+	height: 40vh;
+	margin: auto;
+	/*margin-top: 5vh;	*/
+}
+
+.right-income-category-table{
+	margin: auto;
+	margin-top: 10px;
+}
+
+.right-income-category-table th{
+	font-size: 22px;
+	color: white;
+	width: 180px;
+	background-color: #484848;
+}
+
+.right-income-category-table td{
+	color: black;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: lightgrey;
+}
+
+.right-income-category-table td a{
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	color: blue;
+}
+
+.right-income-category-table td a:hover{
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+	text-decoration: underline;
+}
+
+/*=================right income container================*/
+.right-income-container{
+	width: 65vw;
+	height: 75vh;
+	float: right;
+}
+
+.right-income-child{
+	background-color: #161852;
+	width: 60vw;
+	height: 65vh;
+	margin: auto;
+	margin-top: 4vh;
+}
+
+.income-head{
+	color: white;
+	font-size: 28px;
+	font-weight: bold;
+	padding-top: 40px;
+	margin-left: 20px;
+}
+
+.income-head-success{
+	color: green;
+	font-size: 28px;
+	font-weight: bold;
+	padding-top: 40px;
+	margin-left: 20px;
+}
+
+.income-head-failed{
+	color: green;
+	font-size: 28px;
+	font-weight: bold;
+	padding-top: 40px;
+	margin-left: 20px;
+}
+
+.right-income-form-container{
+	background-color: #0e104c;
+	width: 57vw;
+	height: 52vh;
+	margin: auto;
+	margin-top: 3vh;	
+}
+
+.right-income-form{
+	line-height: 40px;
+	padding-top: 5vh;
+}
+
+.right-income-form label{
+	width: 300px;
+	height: 20px;
+	margin-top: 5px;
+	font-size: 22px;
+	padding-left: 2px;
+}
+
+.right-income-form input{
+	width: 300px;
+	height: 24px;
+	margin-top: 5px;
+	font-size: 22px;
+	padding-left: 2px;
+	background-color: white;
+}
+
+.right-income-form select{
+	width: 200px;
+	height: 25px;
+	margin-top: 5px;
+	font-size: 22px;
+	padding-left: 2px;
+}
+
+.right-income-form select option{
+	font-size: 20px;
+}
+
+.income{
+	margin-right: 47px;
+}
+
+.incCategory{
+	margin-right: 30px;
+}
+
+.incAmount{
+	margin-right: 48px;
+}
+
+.incReceiveBy{
+	margin-right: 9px;
+}
+
+.incDate{
+	margin-right: 75px;
+}
+
+.incRemark{
+	margin-right: 44px;
+}
+
+.right-income-form #incAddIncome{
+	margin-left: 132px;
+	margin-top: 10px;
+	font-size: 20px;
+	width: 308px;
+	height: 30px;
+	background-color: #484848;
+	color: white;
+}
+
+
+/*=================right Expences category container================*/
+.right-Expences-category-container{
+	width: 65vw;
+	height: 75vh;
+	float: right;
+}
+
+.right-Expences-category-child{
+	background-color: #161852;
+	width: 60vw;
+	height: 65vh;
+	margin: auto;
+	margin-top: 4vh;
+}
+
+.right-Expences-form-container{
+	width: 60vw;
+	height: 30vh;
+	margin: auto;
+	/*margin-top: 5vh;*/
+}
+
+.Expences-category-head{
+	color: white;
+	font-size: 28px;
+	font-weight: bold;
+	padding-top: 20px;
+	margin-left: 20px;
+}
+
+.right-Expences-form{
+	margin-left: 10vw;
+	padding-top: 2vh;
+}
+
+.right-Expences-form label{
+	color: white;
+	font-size: 20px;
+}
+
+.expCatNme{
+	margin-right: 15px;
+}
+
+.expCatDetails{
+	margin-right: 7px;
+}
+
+.right-Expences-form input{
+	width: 300px;
+	height: 24px;
+	margin-top: 5px;
+	font-size: 22px;
+	padding-left: 2px;
+	background-color: white;
+}
+
+#AddExpences{
+	margin-left: 180px;
+	margin-top: 10px;
+	font-size: 20px;
+	width: 308px;
+	height: 30px;
+	background-color: #484848;
+	color: white;
+}
+
+.right-Expences-category-infotable{
+	width: 60vw;
+	height: 40vh;
+	margin: auto;
+	/*margin-top: 5vh;	*/
+}
+
+.right-Expences-category-table{
+	margin: auto;
+	margin-top: 10px;
+}
+
+.right-Expences-category-table th{
+	font-size: 22px;
+	color: white;
+	width: 180px;
+	background-color: #484848;
+}
+
+.right-Expences-category-table td{
+	color: black;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: lightgrey;
+}
+
+.right-Expences-category-table td a{
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	color: blue;
+}
+
+.right-Expences-category-table td a:hover{
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+	text-decoration: underline;
+}
+
+/*=================right Expences container================*/
+.right-Expences-container{
+	width: 65vw;
+	height: 75vh;
+	float: right;
+}
+
+.right-Expences-child{
+	background-color: #161852;
+	width: 60vw;
+	height: 65vh;
+	margin: auto;
+	margin-top: 4vh;
+}
+
+.Expences-head{
+	color: white;
+	font-size: 28px;
+	font-weight: bold;
+	padding-top: 40px;
+	margin-left: 20px;
+}
+
+.Expences-head-success{
+	color: green;
+	font-size: 28px;
+	font-weight: bold;
+	padding-top: 40px;
+	margin-left: 20px;
+}
+
+.Expences-head-failed{
+	color: green;
+	font-size: 28px;
+	font-weight: bold;
+	padding-top: 40px;
+	margin-left: 20px;
+}
+
+.right-Expences-form-container{
+	background-color: #0e104c;
+	width: 57vw;
+	height: 52vh;
+	margin: auto;
+	margin-top: 3vh;	
+}
+
+.right-Expences-form{
+	line-height: 40px;
+	padding-top: 5vh;
+}
+
+.right-Expences-form label{
+	width: 300px;
+	height: 20px;
+	margin-top: 5px;
+	font-size: 22px;
+	padding-left: 2px;
+}
+
+.right-Expences-form input{
+	width: 300px;
+	height: 24px;
+	margin-top: 5px;
+	font-size: 22px;
+	padding-left: 2px;
+	background-color: white;
+}
+
+.right-Expences-form select{
+	width: 200px;
+	height: 25px;
+	margin-top: 5px;
+	font-size: 22px;
+	padding-left: 2px;
+}
+
+.right-Expences-form select option{
+	font-size: 20px;
+}
+
+.Expence{
+	margin-right: 34px;
+}
+
+.expCategory{
+	margin-right: 30px;
+}
+
+.expAmount{
+	margin-right: 43px;
+}
+
+.expPayBy{
+	margin-right: 9px;
+}
+
+.expDate{
+	margin-right: 75px;
+}
+
+.expRemark{
+	margin-right: 44px;
+}
+
+.right-Expences-form #expAddExpences{
+	margin-left: 132px;
+	margin-top: 10px;
+	font-size: 20px;
+	width: 308px;
+	height: 30px;
+	background-color: #484848;
+	color: white;
+}
+
+
+/*=================left CashBook container================*/
+.right-cash-book-container{
+	width: 65vw;
+	height: 75vh;
+	float: right;
+}
+
+.right-cash-book-child{
+	background-color: #161852;
+	width: 60vw;
+	height: 65vh;
+	margin: auto;
+	margin-top: 4vh;
+}
+
+.right-cashbook-form-container{
+	width: 57vw;
+	height: 55vh;
+	margin: auto;
+	/*margin-top: 5vh;*/
+	background-color: #070642;
+}
+
+.cashbook-category-head{
+	color: white;
+	font-size: 28px;
+	font-weight: bold;
+	padding-top: 20px;
+	margin-left: 20px;
+}
+
+.left-cashbook-form{
+	margin-left: 10vw;
+	padding-top: 5px;
+}
+
+.left-cashbook-form label{
+	width: 300px;
+	height: 20px;
+	margin-top: 5px;
+	font-size: 20px;
+	padding-left: 2px;
+	font-weight: bold;
+	color: white;
+}
+
+.cbTo{
+	margin-left: 200px;
+}
+
+.left-cashbook-form input{
+	width: 200px;
+	height: 30px;
+	margin-top: 5px;
+	font-size: 22px;
+	padding-left: 2px;
+	background-color: white;
+}
+
+#cbTo{
+	margin-left: 10px;
+}
+
+#showCB{
+	margin-left: 10px;
+	margin-top: 10px;
+	font-size: 20px;
+	width: 100px;
+	height: 35px;
+	background-color: #484848;
+	color: white;
+	font-weight: bold;
+}
+
+.left-cashbook-table{
+	margin: auto;
+	margin-top: 1vh;
+	width: 45vw;
+	text-align: left;
+}
+
+.left-cashbook-table th{
+	color: grey;
+	background-color: black;
+	font-size: 21px;
+}
+
+.left-cashbook-table td{
+	color: white;
+	font-size: 18px;
+}
+
+
+
+*{
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#container{
+	background-color: #0f1144;
+	width: 100vw;
+	height: 745px;
+	margin: auto;
+}
+
+.head{
+	width: 100%;
+}
+
+
+.logo{
+	background: linear-gradient(to top, #090909, #484848);
+	width: 40vw;
+	height: 150px;
+	float: left;
+
+}
+
+.logo img{
+	width: 350px;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+.menu{
+	background: linear-gradient(to top, #090909, #484848);
+	width: 60vw;
+	height: 150px;
+	float: left;
+}
+
+.menu-ul{
+	margin-left: 350px;
+	margin-top: 20px;
+}
+
+.menu-ul-li{
+	float: left;
+	padding-left: 16px;
+	padding-right: 16px;
+	list-style: none;
+	font-size: 24px;
+	padding-top: 40px;
+}
+
+.menu-ul-li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.menu-ul-li a:hover{
+	text-decoration: overline;
+	font-weight: bold;
+}
+
+
+/*=======right-img-home=======*/
+.right-img-home{
+	float: right;
+	margin-right: 20vw;
+}
+
+.right-img-home img{
+	width: 550px;
+	margin-left: 12vw;
+}
+
+
+/*================Login Form=================*/
+
+#log-form{
+	background-color: #000244;
+	width: 50vw;
+	height: 300px;
+	float: right;
+	margin-top: 40px;
+	margin-right: 40px;
+	border: 15px solid #1c1e6b;
+}
+
+#log-form p{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+.log-f{
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 40px;
+}
+
+.reg-f label{
+	color: white;
+	font-size: 22px;
+}
+
+.log-f input{
+	width: 300px;
+	height: 25px;
+	margin-top: 5px;
+	font-size: 22px;
+	padding-left: 2px;
+}
+
+.log-form-register-p a{
+	text-decoration: none;
+	color: #2874f0;
+	font-size: 16px;
+	margin-left: 15vw;
+	/*margin-top: 30px;*/
+	font-weight: lighter;
+	text-align: justify;
+}
+
+.log-f label{
+	color: white;
+	font-size: 22px;
+}
+
+.log-f input{
+	width: 300px;
+	height: 25px;
+	margin-top: 5px;
+	font-size: 22px;
+	padding-left: 2px;
+}
+
+.log-userUName{
+	margin-left: 10px;
+	margin-right: 72px;
+	margin-top: 5px;
+}
+
+.log-userPass{
+	margin-left: 10px;
+	margin-right: 77px;
+	margin-top: 2px;
+}
+
+/*===================Register Form===================*/
+
+#reg-form{
+	background-color: #000244;
+	width: 50vw;
+	height: 400px;
+	float: right;
+	margin-top: 40px;
+	margin-right: 40px;
+	border: 15px solid #1c1e6b;
+}
+
+#reg-form p{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+.reg-f{
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 40px;
+}
+
+.reg-f label{
+	color: white;
+	font-size: 22px;
+}
+
+.reg-f input{
+	width: 300px;
+	height: 25px;
+	margin-top: 5px;
+	font-size: 22px;
+	padding-left: 2px;
+}
+
+#uid{
+	display: none;
+}
+
+.userName{
+	margin-left: 10px;
+	margin-right: 115px;
+	margin-top: 5px;
+}
+
+
+.userUName{
+	margin-left: 10px;
+	margin-right: 72px;
+	margin-top: 5px;
+}
+
+.userPass{
+	margin-left: 10px;
+	margin-right: 77px;
+	margin-top: 2px;
+}
+
+.userConPass{
+	margin-left: 10px;
+	margin-top: 2px;
+}
+
+.userPhon{
+	margin-left: 10px;
+	margin-right: 82px;
+	margin-top: 2px;
+}
+
+.userEmail{
+	margin-left: 10px;
+	margin-right: 100px;
+	margin-top: 2px;
+}
+
+.userAdd{
+	margin-left: 10px;
+	margin-right: 93px;
+	margin-top: 2px;
+}
+
+/*Registration Form Button*/
+#inputReg{
+	margin-left: 194px;
+	margin-top: 2px;
+	font-size: 20px;
+	width: 308px;
+	height: 35px;
+	background-color: #484848;
+	color: white;
+}
+
+/*Login Form Button*/
+#inputLog{
+	margin-left: 194px;
+	margin-top: 10px;
+	font-size: 20px;
+	width: 308px;
+	height: 35px;
+	background-color: #484848;
+	color: white;
+}
+
+
+/*=============left-right both container=================*/
+
+.main-container-left-right{
+	width: 100%;
+	height: 10vh;
+	background-color: lightblue;
+}
+
+/*left side menu bar Master*/
+
+.left-menu-bar-Master{
+	width: 30vw;
+	height: 79.7vh;
+	float: left;
+	margin-top: 0px;
+	margin-left: 10px;
+}
+
+.left-menu-heading-master{
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+	margin-left: 20px;
+	margin-top: 3vh;
+}
+
+.left-menu-blackBox{
+	background-color: #272727;
+	border-top: 5px solid grey;
+	width: 350px;
+	height: 430px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.left-menu-ul{
+	margin-top: 20px;
+	margin-left: 15px;
+}
+
+.left-menu-ul-li{
+	list-style: none;
+	padding: 6px;
+	padding-top: 15px;
+
+}
+
+.left-menu-ul-li a{
+	color: #00326f;
+	font-size: 24px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.left-menu-ul-li a:hover{
+	color: white;
+	font-size: 24px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/*==============right profile container============*/
+.perent-right-profile-container{
+	width: 70vw;
+	height: 79.7vh;;
+	float: right;
+}
+
+.perent-right-child{
+	width: 50vw;
+	height: 50vh;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 15vh;
+	background-color: #161852;
+}
+
+.perent-right-child-p{
+	color: white;
+	font-size: 35px;
+	font-weight: bold;
+	padding: 5px;
+}
+
+.perent-right-child-table{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5vh;
+}
+
+table tr td .tbl-tr-td{
+	color: white;
+	font-size: 18px;
+	padding: 5px;
+	font-weight: bold;
+}
+
+table tr .tbl-tr-colon{
+	color: white;
+	font-size: 20px;
+}
+
+table tr td .tbl-tr-td-value{
+	color: white;
+	font-size: 20px;
+	padding: 5px;
+}
+
+
+/*=====================*Update Profile*=====================*/
+
+.right-update-profile-bar{
+	width: 50vw;
+	height: 52vh;
+	float: right;
+	margin-right: 15vw;
+	margin-top: 16vh;
+	background-color: #161852;
+}
+
+.right-update-profile-bar p{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+.right-update-form{
+	margin-left: 10vw;
+	margin-top: 5vh;
+}
+
+.right-update-profile-bar label{
+	color: white;
+	font-size: 22px;
+
+}
+
+.right-update-profile-bar input{
+	width: 300px;
+	height: 25px;
+	margin-top: 5px;
+	font-size: 22px;
+	padding-left: 2px;
+}
+
+/*==all input==*/
+.userName-update{
+	margin-left: 10px;
+	margin-right: 65px;
+	margin-top: 5px;
+}
+
+.userUName-update{
+	margin-left: 10px;
+	margin-right: 22px;
+	margin-top: 5px;
+}
+
+.userPass-update{
+	margin-left: 10px;
+	margin-right: 27px;
+	margin-top: 2px;
+}
+
+.userPhon-update{
+	margin-left: 10px;
+	margin-right: 32px;
+	margin-top: 2px;
+}
+
+.userEmail-update{
+	margin-left: 10px;
+	margin-right: 50px;
+	margin-top: 2px;
+}
+
+.userAdd-update{
+	margin-left: 10px;
+	margin-right: 43px;
+	margin-top: 2px;
+}
+
+/*Update Form Button*/
+#input-Update{
+	margin-left: 155px;
+	margin-top: 10px;
+	font-size: 20px;
+	width: 90px;
+	height: 30px;
+	background-color: #484848;
+	color: white;
+}
+
+/*============*Update Profile End*=============*/
+
+
+.update-span-colon{
+	margin-right: 0;
+	font-size: 20px;
+	font-weight: bold;
+	padding-right: 5px;
+}
+
+/*=================right income category container================*/
+.right-income-category-container{
+	width: 65vw;
+	height: 75vh;
+	float: right;
+}
+
+.right-income-category-child{
+	background-color: #161852;
+	width: 60vw;
+	height: 65vh;
+	margin: auto;
+	margin-top: 4vh;
+}
+
+.right-income-form-container{
+	width: 60vw;
+	height: 30vh;
+	margin: auto;
+	/*margin-top: 5vh;*/
+}
+
+.income-category-head{
+	color: white;
+	font-size: 28px;
+	font-weight: bold;
+	padding-top: 20px;
+	margin-left: 20px;
+}
+
+.right-income-form{
+	margin-left: 10vw;
+	padding-top: 2vh;
+}
+
+.right-income-form label{
+	color: white;
+	font-size: 20px;
+}
+
+.incCatNme{
+	margin-right: 15px;
+}
+
+.incCatDetails{
+	margin-right: 7px;
+}
+
+.right-income-form input{
+	width: 300px;
+	height: 24px;
+	margin-top: 5px;
+	font-size: 22px;
+	padding-left: 2px;
+	background-color: white;
+}
+
+#AddIncome{
+	margin-left: 180px;
+	margin-top: 10px;
+	font-size: 20px;
+	width: 308px;
+	height: 30px;
+	background-color: #484848;
+	color: white;
+}
+
+.right-income-category-infotable{
+	width: 60vw;
+	height: 40vh;
+	margin: auto;
+	/*margin-top: 5vh;	*/
+}
+
+.right-income-category-table{
+	margin: auto;
+	margin-top: 10px;
+}
+
+.right-income-category-table th{
+	font-size: 22px;
+	color: white;
+	width: 180px;
+	background-color: #484848;
+}
+
+.right-income-category-table td{
+	color: black;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: lightgrey;
+}
+
+.right-income-category-table td a{
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	color: blue;
+}
+
+.right-income-category-table td a:hover{
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+	text-decoration: underline;
+}
+
+/*=================right income container================*/
+.right-income-container{
+	width: 65vw;
+	height: 75vh;
+	float: right;
+}
+
+.right-income-child{
+	background-color: #161852;
+	width: 60vw;
+	height: 65vh;
+	margin: auto;
+	margin-top: 4vh;
+}
+
+.income-head{
+	color: white;
+	font-size: 28px;
+	font-weight: bold;
+	padding-top: 40px;
+	margin-left: 20px;
+}
+
+.income-head-success{
+	color: green;
+	font-size: 28px;
+	font-weight: bold;
+	padding-top: 40px;
+	margin-left: 20px;
+}
+
+.income-head-failed{
+	color: green;
+	font-size: 28px;
+	font-weight: bold;
+	padding-top: 40px;
+	margin-left: 20px;
+}
+
+.right-income-form-container{
+	background-color: #0e104c;
+	width: 57vw;
+	height: 52vh;
+	margin: auto;
+	margin-top: 3vh;	
+}
+
+.right-income-form{
+	line-height: 40px;
+	padding-top: 5vh;
+}
+
+.right-income-form label{
+	width: 300px;
+	height: 20px;
+	margin-top: 5px;
+	font-size: 22px;
+	padding-left: 2px;
+}
+
+.right-income-form input{
+	width: 300px;
+	height: 24px;
+	margin-top: 5px;
+	font-size: 22px;
+	padding-left: 2px;
+	background-color: white;
+}
+
+.right-income-form select{
+	width: 200px;
+	height: 25px;
+	margin-top: 5px;
+	font-size: 22px;
+	padding-left: 2px;
+}
+
+.right-income-form select option{
+	font-size: 20px;
+}
+
+.income{
+	margin-right: 47px;
+}
+
+.incCategory{
+	margin-right: 30px;
+}
+
+.incAmount{
+	margin-right: 48px;
+}
+
+.incReceiveBy{
+	margin-right: 9px;
+}
+
+.incDate{
+	margin-right: 75px;
+}
+
+.incRemark{
+	margin-right: 44px;
+}
+
+.right-income-form #incAddIncome{
+	margin-left: 132px;
+	margin-top: 10px;
+	font-size: 20px;
+	width: 308px;
+	height: 30px;
+	background-color: #484848;
+	color: white;
+}
+
+
+/*=================right Expences category container================*/
+.right-Expences-category-container{
+	width: 65vw;
+	height: 75vh;
+	float: right;
+}
+
+.right-Expences-category-child{
+	background-color: #161852;
+	width: 60vw;
+	height: 65vh;
+	margin: auto;
+	margin-top: 4vh;
+}
+
+.right-Expences-form-container{
+	width: 60vw;
+	height: 30vh;
+	margin: auto;
+	/*margin-top: 5vh;*/
+}
+
+.Expences-category-head{
+	color: white;
+	font-size: 28px;
+	font-weight: bold;
+	padding-top: 20px;
+	margin-left: 20px;
+}
+
+.right-Expences-form{
+	margin-left: 10vw;
+	padding-top: 2vh;
+}
+
+.right-Expences-form label{
+	color: white;
+	font-size: 20px;
+}
+
+.expCatNme{
+	margin-right: 15px;
+}
+
+.expCatDetails{
+	margin-right: 7px;
+}
+
+.right-Expences-form input{
+	width: 300px;
+	height: 24px;
+	margin-top: 5px;
+	font-size: 22px;
+	padding-left: 2px;
+	background-color: white;
+}
+
+#AddExpences{
+	margin-left: 180px;
+	margin-top: 10px;
+	font-size: 20px;
+	width: 308px;
+	height: 30px;
+	background-color: #484848;
+	color: white;
+}
+
+.right-Expences-category-infotable{
+	width: 60vw;
+	height: 40vh;
+	margin: auto;
+	/*margin-top: 5vh;	*/
+}
+
+.right-Expences-category-table{
+	margin: auto;
+	margin-top: 10px;
+}
+
+.right-Expences-category-table th{
+	font-size: 22px;
+	color: white;
+	width: 180px;
+	background-color: #484848;
+}
+
+.right-Expences-category-table td{
+	color: black;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: lightgrey;
+}
+
+.right-Expences-category-table td a{
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	color: blue;
+}
+
+.right-Expences-category-table td a:hover{
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+	text-decoration: underline;
+}
+
+/*=================right Expences container================*/
+.right-Expences-container{
+	width: 65vw;
+	height: 75vh;
+	float: right;
+}
+
+.right-Expences-child{
+	background-color: #161852;
+	width: 60vw;
+	height: 65vh;
+	margin: auto;
+	margin-top: 4vh;
+}
+
+.Expences-head{
+	color: white;
+	font-size: 28px;
+	font-weight: bold;
+	padding-top: 40px;
+	margin-left: 20px;
+}
+
+.Expences-head-success{
+	color: green;
+	font-size: 28px;
+	font-weight: bold;
+	padding-top: 40px;
+	margin-left: 20px;
+}
+
+.Expences-head-failed{
+	color: green;
+	font-size: 28px;
+	font-weight: bold;
+	padding-top: 40px;
+	margin-left: 20px;
+}
+
+.right-Expences-form-container{
+	background-color: #0e104c;
+	width: 57vw;
+	height: 52vh;
+	margin: auto;
+	margin-top: 3vh;	
+}
+
+.right-Expences-form{
+	line-height: 40px;
+	padding-top: 5vh;
+}
+
+.right-Expences-form label{
+	width: 300px;
+	height: 20px;
+	margin-top: 5px;
+	font-size: 22px;
+	padding-left: 2px;
+}
+
+.right-Expences-form input{
+	width: 300px;
+	height: 24px;
+	margin-top: 5px;
+	font-size: 22px;
+	padding-left: 2px;
+	background-color: white;
+}
+
+.right-Expences-form select{
+	width: 200px;
+	height: 25px;
+	margin-top: 5px;
+	font-size: 22px;
+	padding-left: 2px;
+}
+
+.right-Expences-form select option{
+	font-size: 20px;
+}
+
+.Expence{
+	margin-right: 34px;
+}
+
+.expCategory{
+	margin-right: 30px;
+}
+
+.expAmount{
+	margin-right: 43px;
+}
+
+.expPayBy{
+	margin-right: 9px;
+}
+
+.expDate{
+	margin-right: 75px;
+}
+
+.expRemark{
+	margin-right: 44px;
+}
+
+.right-Expences-form #expAddExpences{
+	margin-left: 132px;
+	margin-top: 10px;
+	font-size: 20px;
+	width: 308px;
+	height: 30px;
+	background-color: #484848;
+	color: white;
+}
+
+
+/*=================left CashBook container================*/
+.right-cash-book-container{
+	width: 65vw;
+	height: 75vh;
+	float: right;
+}
+
+.right-cash-book-child{
+	background-color: #161852;
+	width: 60vw;
+	height: 65vh;
+	margin: auto;
+	margin-top: 4vh;
+}
+
+
+.cashbook-category-head{
+	color: white;
+	font-size: 28px;
+	font-weight: bold;
+	padding-top: 20px;
+	margin-left: 20px;
+}
+
+.right-cashbook-form-container{
+	width: 57vw;
+	height: 55vh;
+	margin: auto;
+	/*margin-top: 5vh;*/
+	background-color: #070642;
+}
+
+.left-cashbook-form{
+	margin-left: 10vw;
+	padding-top: 5px;
+}
+
+.left-cashbook-form label{
+	width: 300px;
+	height: 20px;
+	margin-top: 5px;
+	font-size: 20px;
+	padding-left: 2px;
+	font-weight: bold;
+	color: white;
+}
+
+.cbTo{
+	margin-left: 200px;
+}
+
+.left-cashbook-form input{
+	width: 200px;
+	height: 30px;
+	margin-top: 5px;
+	font-size: 22px;
+	padding-left: 2px;
+	background-color: white;
+}
+
+#cbTo{
+	margin-left: 10px;
+}
+
+#showCB{
+	margin-left: 10px;
+	margin-top: 10px;
+	font-size: 20px;
+	width: 100px;
+	height: 35px;
+	background-color: #484848;
+	color: white;
+	font-weight: bold;
+}
+
+
+.left-cashbook-table{
+	margin: auto;
+	margin-top: 1vh;
+	width: 45vw;
+	text-align: left;
+}
+
+.left-cashbook-table th{ 
+	color: grey;
+	background-color: black;
+	font-size: 21px;
+}
+
+.left-cashbook-table td{
+	color: white;
+	font-size: 18px;
+}
+
+
+
+/*=================left BankBook container================*/
+.right-bank-book-container{
+	width: 65vw;
+	height: 75vh;
+	float: right;
+}
+
+.right-bank-book-child{
+	background-color: #161852;
+	width: 60vw;
+	height: 65vh;
+	margin: auto;
+	margin-top: 4vh;
+}
+
+
+.bankbook-category-head{
+	color: white;
+	font-size: 28px;
+	font-weight: bold;
+	padding-top: 20px;
+	margin-left: 20px;
+}
+
+.right-bankbook-form-container{
+	width: 57vw;
+	height: 55vh;
+	margin: auto;
+	background-color: #070642;
+}
+
+.left-bankbook-form{
+	margin-left: 10vw;
+	padding-top: 5px;
+}
+
+.left-bankbook-form label{
+	width: 300px;
+	height: 20px;
+	margin-top: 5px;
+	font-size: 20px;
+	padding-left: 2px;
+	font-weight: bold;
+	color: white;
+}
+
+.cbTo{
+	margin-left: 200px;
+}
+
+.left-bankbook-form input{
+	width: 200px;
+	height: 30px;
+	margin-top: 5px;
+	font-size: 22px;
+	padding-left: 2px;
+	background-color: white;
+}
+
+#bbTo{
+	margin-left: 10px;
+}
+
+#showBB{
+	margin-left: 10px;
+	margin-top: 10px;
+	font-size: 20px;
+	width: 100px;
+	height: 35px;
+	background-color: #484848;
+	color: white;
+	font-weight: bold;
+}
+
+
+.left-bankbook-table{
+	margin: auto;
+	margin-top: 1vh;
+	width: 45vw;
+	text-align: left;
+}
+
+.left-bankbook-table th{ 
+	color: grey;
+	background-color: black;
+	font-size: 21px;
+}
+
+.left-bankbook-table td{
+	color: white;
+	font-size: 18px;
+}
+
+
+/*=================left DayBook container================*/
+.right-day-book-container{
+	width: 65vw;
+	height: 75vh;
+	float: right;
+}
+
+.right-day-book-child{
+	background-color: #161852;
+	width: 60vw;
+	height: 65vh;
+	margin: auto;
+	margin-top: 4vh;
+}
+
+
+.daybook-category-head{
+	color: white;
+	font-size: 28px;
+	font-weight: bold;
+	padding-top: 20px;
+	margin-left: 20px;
+}
+
+.right-daybook-form-container{
+	width: 57vw;
+	height: 55vh;
+	margin: auto;
+	background-color: #070642;
+}
+
+.left-daybook-form{
+	margin-left: 10vw;
+	padding-top: 5px;
+}
+
+.left-daybook-form label{
+	width: 300px;
+	height: 20px;
+	margin-top: 5px;
+	font-size: 20px;
+	padding-left: 2px;
+	font-weight: bold;
+	color: white;
+}
+
+.dbTo{
+	margin-left: 200px;
+}
+
+.left-daybook-form input{
+	width: 200px;
+	height: 30px;
+	margin-top: 5px;
+	font-size: 22px;
+	padding-left: 2px;
+	background-color: white;
+}
+
+#dbTo{
+	margin-left: 10px;
+}
+
+#showDB{
+	margin-left: 10px;
+	margin-top: 10px;
+	font-size: 20px;
+	width: 100px;
+	height: 35px;
+	background-color: #484848;
+	color: white;
+	font-weight: bold;
+}
+
+
+.left-daybook-table{
+	margin: auto;
+	margin-top: 1vh;
+	width: 45vw;
+	text-align: left;
+}
+
+.left-daybook-table th{ 
+	color: grey;
+	background-color: black;
+	font-size: 21px;
+}
+
+.left-daybook-table td{
+	color: white;
+	font-size: 18px;
+}

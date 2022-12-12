@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+		<html>
+		<head>
+			<meta charset='utf-8'>
+			<meta name='viewport' content='width=device-width, initial-scale=1'>
+			<title>Home</title>
+			<link rel='stylesheet' type='text/css' href='style.css'>
+		</head>
+		<body>
+			<div id='container'>
+					
+					<div class='head'>
+
+						<div class='logo'>
+							<img src='images/pis-logo.png'>
+						</div>
+
+						<div class='menu'>
+							<ul class='menu-ul'>
+								<li class='menu-ul-li'><a href='homePage'>Home</a></li>
+								<li class='menu-ul-li'><a href='UserProfile'>Profile</a></li>
+								<li class='menu-ul-li'><a href='registerUser.html'>Register User</a></li>
+								<li class='menu-ul-li'><a href='login.html'>Login</a></li>
+							</ul>
+						</div>
+					</div>
+
+				<div class='left-menu-bar-Master'>
+					<p class='left-menu-heading-master'>Master</p>
+
+					  <div class='left-menu-blackBox'>
+						<ul class='left-menu-ul'>
+							<li class='left-menu-ul-li'><a href=''>Expenses Category</a></li>
+							<li class='left-menu-ul-li'><a href=''>Income Category</a></li>
+							<li class='left-menu-ul-li'><a href=''>Expenses</a></li>
+							<li class='left-menu-ul-li'><a href=''>Income</a></li>
+							<li class='left-menu-ul-li'><a href=''>Cash Book</a></li>
+							<li class='left-menu-ul-li'><a href=''>Bank Book</a></li>
+							<li class='left-menu-ul-li'><a href=''>Day Book</a></li>
+							<li class='left-menu-ul-li'><a href=''>Balance Sheet</a></li>
+						</ul>
+					  </div>
+				</div>
+				
+				<div class='right-income-category-container'>
+					<div class='right-income-category-child'>
+						<div class='right-income-form-container'>
+							<p class='income-category-head'>Income Category</p>
+							<form action='' class="right-income-form">
+								<label for='incCN' class='incCatNme'>Category Name:</label>
+				    			<input type='text' name='incCatName' id='incCN' placeholder='enter category name'>
+				    			<br>
+				    			<label for='incCD' class='incCatDetails'>Category Details:</label>
+				    			<input type='text' name='incCatDetails' id='incCD' placeholder='enter category details'>
+				    			<br>
+				    			<input id='AddIncome' type='submit' value='Add'>
+							</form>
+
+						</div>
+
+						<hr size='10px' color='grey'>
+
+						<div class='right-income-category-infotable'>
+							<table border='1' class='right-income-category-table'>
+								<tr>
+									<th class='income-th'>Category Name</th>
+									<th class='income-th'>Category Details</th>
+									<th class='income-th'>Edit</th>
+									<th class='income-th'>Delete</th>
+								</tr>
+
+								<tr>
+									<td >Home</td>
+									<td>Indirect</td>
+									<td><a href=''>Edit</a></td>
+									<td><a href=''>Delete</a></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</body>
+		</html>

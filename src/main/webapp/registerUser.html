@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<title>Register Form</title>
+	<link rel='stylesheet' type='text/css' href='style.css'>
+</head>
+<body>
+	<div id="container">
+
+		<!-- Header -->
+		<div class='head'>
+			<div class='logo'>
+				<img src='images/pis-logo.png'>
+			</div>
+			<div class='menu'>
+				<ul class='menu-ul'>
+					<li class='menu-ul-li'><a href="homePage">Home</a></li>
+					<li class='menu-ul-li'><a href='registerUser.html'>Register User</a></li>
+					<li class='menu-ul-li'><a href='logoutController'>Login</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- Main -->
+		<div id='reg-form'>
+			<p>User Registeration</p>
+
+			<form class='reg-f' action="AddUserController" method='post'>
+				    	<label for='un' class='userName'>Name:</label>
+				    	<input type='text' name='reguName' id='un' placeholder="enter name">
+				    	<br>
+						<label for='uun' class='userUName'>Username:</label>
+				    	<input type='text' name='reguUserName' id='uun' placeholder='enter username'>
+				    	<br>
+				    	<label for='up' class='userPass'>Password:</label>
+				    	<input type='password' name='reguPassword' id='up' placeholder='enter password'>
+				    	<br>
+				    	<label for='ucp' class='userConPass'>ConfirmPassword:</label>
+				    	<input type='text' name='reguConfPass' id='ucp' placeholder='enter confirm password'>
+				    	<br>
+				    	<label for='upn' class='userPhon'>PhoneNo:</label>
+				    	<input type='text' name='reguPhoneNo' id='upn' placeholder='enter phoneno'>
+				    	<br>
+				    	<label for='uei' class='userEmail'>EmailId:</label>
+				    	<input type='email' name='reguEmailId' id='uei' placeholder='enter emailid'>
+				    	<br>
+				    	<label for='ua' class='userAdd'>Address:</label>
+				    	<input type='text' name='reguAddress' id='ua' placeholder='enter address'>
+				    	<br>
+				    	<input id='inputReg' type='submit' value='Register'>
+			</form>
+		</div>
+
+
+	</div>
+</body>
+</html>
